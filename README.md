@@ -4,6 +4,9 @@ Reveals the true name of the 45th President of the United States - not Donald Tr
 
 Add as an extension to Chrome browsers.
 
+Find it on the Chrome webstore here:
+https://chrome.google.com/webstore/detail/camacho/imhfgbaoeclfcdcmhlncoikbchchnjfn
+
 # Bugs
 
 Does not work on content that is dynamically-loaded, such as the front page of cnn.com. Works most everywhere though. Pull request if you know how to fix that.
