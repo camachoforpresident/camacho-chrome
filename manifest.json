@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Camacho",
+	"description": "Reveals the true name of the President of the United States",
+	"version": "1.0",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*","https://*/*"],
+			"js": ["camacho.js"],
+			"run_at": "document_end"
+		}
+	],
+	"permissions": [
+		"activeTab"
+	],
+	"icons": {
+		"16": "camacho16.png",
+		"48": "camacho48.png",
+		"128": "camacho128.png"
+	}
+}
